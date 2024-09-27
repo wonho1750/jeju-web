@@ -4,7 +4,7 @@ let bankSum = 0;
 let sum = 0;
 while(bankSum < 17)
 {
-    let cardOne = 7;
+    let cardOne = 9;
     let cardTwo = 5;
     let cardThree = 7;
     sum = cardOne + cardTwo + cardThree;  // 플레이어 카드 총합
