@@ -36,4 +36,4 @@ let mostPopularFlavor = Object.keys(flavorDistribution).reduce((a, b) => {
   return flavorDistribution[a] > flavorDistribution[b] ? a : b;
 });
 
-console.log(`The most popular ice cream flavor is ${mostPopularFlavor}`);
+console.log(`가장 많이 팔린 아이스크림의 맛은 ${mostPopularFlavor} 입니다!`);
