@@ -1,4 +1,5 @@
 // blackjack.js
+// 수정
 let bankSum = 0;
 let sum = 0;
 while(bankSum < 17)
