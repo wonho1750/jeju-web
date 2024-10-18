@@ -37,9 +37,10 @@ body {
 }
 
 .plant {
-    max-width: 100%;
-    max-height: 100%;
-    z-index: 2;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
 }
 
 .jar-walls {
@@ -51,7 +52,7 @@ body {
     bottom: 0.5%;
     left: 20%;
     opacity: 0.5;
-    z-index: 1;
+    z-index: -999;
 }
 
 .jar-top {
@@ -62,7 +63,7 @@ body {
     bottom: 80.5%;
     left: 25%;
     opacity: 0.7;
-    z-index: 1;
+    z-index: -999;
 }
 
 .jar-bottom {
