@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Typing Game!</h1>
+    <p>셜록 홈즈의 인용문으로 영어 타이핑 실력을 연습해보세요. <strong>Start</strong>를 클릭하여 시작하세요!</p>
+    <p id="quote"></p>
+    <div>
+        <input type="text" aria-label="current word" id="typed-value" />
+        <button type="button" id="start">Start</button>
+    </div>
+
+    <!-- 결과 모달 창 -->
+    <div id="result-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <h1><결과></h1>
+            <p id="result-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
