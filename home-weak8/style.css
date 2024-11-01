@@ -31,12 +31,6 @@ button#start:hover {
     background-color: #8545a3;
 }
 
-/* 반짝이는 효과 */
-@keyframes flash {
-    0% { background-color: #fff3e0; }
-    50% { background-color: #ffe0b2; }
-    100% { background-color: #fff3e0; }
-}
 
 .flash {
     animation: flash 0.3s ease-out;
@@ -53,7 +47,6 @@ button#start:hover {
     font-weight: bold;
 }
 
-/* 모달 스타일 */
 .modal {
     display: none;
     position: fixed;
@@ -98,7 +91,13 @@ button#start:hover {
     cursor: pointer;
 }
 
-/* 반짝이는 효과 */
+/* 입력(input) 성공 시 반짝이는 효과 설정 -> input event */
+@keyframes flash {
+    0% { background-color: #fff3e0; }
+    50% { background-color: #ffe0b2; }
+    100% { background-color: #fff3e0; }
+}
+
 @keyframes flash {
     0% { 
         color: #6d2a9d; 

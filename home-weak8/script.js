@@ -20,6 +20,7 @@ const resultModal = document.getElementById('result-modal');
 const resultMessage = document.getElementById('result-message');
 const closeModal = document.getElementById('close-modal');
 
+
 closeModal.onclick = function() {
     resultModal.style.display = "none";
 };
@@ -28,6 +29,7 @@ window.onclick = function(event) {
         resultModal.style.display = "none";
     }
 };
+
 
 startButton.addEventListener('click', () => {
     const quoteIndex = Math.floor(Math.random() * quotes.length); 
