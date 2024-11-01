@@ -47,6 +47,7 @@ startButton.addEventListener('click', () => {
     typedValueElement.disabled = false;
 });
 
+//입력(input) 이벤트
 typedValueElement.addEventListener('input', () => {
     const currentWord = words[wordIndex];
     const typedValue = typedValueElement.value;
@@ -61,7 +62,7 @@ typedValueElement.addEventListener('input', () => {
             localStorage.setItem('highScore', highScore);
         }
 
-        resultMessage.innerHTML = `<h3>축하합니다 ! <br>  당신의 현재 기록은 <h2>${elapsedTime / 1000}초</h2> <br><br> 최고 기록: ${highScore / 1000}초</h3>`;
+        resultMessage.innerHTML = `<h3>축하합니다 !<br>당신의 현재 기록은 <h2>${elapsedTime / 1000}초</h2> <br><br> 최고 기록: ${highScore / 1000}초</h3>`;
         resultModal.style.display = 'block';
 
     } else if (typedValue.endsWith(' ') && typedValue.trim() === currentWord) {
