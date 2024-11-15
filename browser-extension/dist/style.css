@@ -23,9 +23,9 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    height: 550px;
+    min-height: 500px;
     width: 330px;
-    padding: 20px;
+    padding: 10px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -98,18 +98,6 @@ form {
     background-color: #0056b3;
 }
 
-.result {
-    display: none; 
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
-}
-
-.result-container p {
-    font-size: 14px;
-    color: #333;
-    margin: 5px 0;
-}
 
 .clear-btn {
     margin-top: 15px;
