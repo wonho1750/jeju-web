@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Naming Your Puppy",
+    "version": "0.1.0",
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "dist/background.js"
+    },
+    "action": {
+        "default_popup": "dist/index.html"
+    }
+}
