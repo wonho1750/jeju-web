@@ -551,4 +551,3 @@ window.onload = async () => {
         drawLife();
     }, 100);
 };
-
