@@ -1,6 +1,6 @@
 // 스테이지 번호 변수 추가
 let currentStage = 1;
-const MAX_STAGE = 1; // 최대 스테이지 수
+const MAX_STAGE = 3; // 최대 스테이지 수
 
 class EventEmitter {
     constructor() {
